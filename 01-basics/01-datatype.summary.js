@@ -27,3 +27,21 @@ const myfunction=function(){
 }
 console.log(typeof myfunction);
 console.log(typeof id);
+
+
+//*********************************************************************************
+// stack (Primitive) , Heap(Non-primitive)
+
+let myYoutubename="NITIN@GMAIL.COM";
+let Anothername=myYoutubename;
+Anothername="johri@name";
+console.log(Anothername);
+console.log(myYoutubename);
+let username={
+    email:"username@gmail.com",
+    upi:"username@upi"
+}
+let username2=username;
+username2.email="nitin@gmail.com";
+console.log(username.email);
+console.log(username2.email);
